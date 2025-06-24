@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mo7wf Diaries – Cyber Adventure</title>
+<link href="style.css" rel="stylesheet"/>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0a0f0d;
+      color: #00ffae;
+      line-height: 1.6;
+      padding: 30px;
+      background-image: radial-gradient(circle at top left, #102027, #000000);
+    }
+    header, footer {
+      text-align: center;
+    }
+    h1, h2, h3, h4 {
+      color: #00ffe0;
+      text-shadow: 0 0 5px #00ffe0;
+    }
+    section {
+      margin: 40px 0;
+      background: rgba(0, 255, 174, 0.05);
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #00ffae;
+    }
+    a {
+      color: #ffd369;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .category-list ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .challenge-box {
+      background: #111;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border-left: 4px solid #00ffae;
+      box-shadow: 0 0 10px rgba(0, 255, 174, 0.3);
+    }
+    footer {
+      margin-top: 40px;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Mo7wf Diaries</h1>
+<p>Just a dude casually breaking stuff in cyberspace and calling it a career. </p>
+</header>
+<section id="about">
+<h2>About Me</h2>
+<p>Hey, I’m Mo7wf. I’m deep into cybersecurity – reverse engineering, systems, hacking simulations... basically digital parkour.</p>
+<p>This site is where I flex my hacker journey. No dark web, I promise.</p>
+<p>I’m currently a student at the <strong>Higher School of Computer Science of Algiers (ESI_Alger)</strong>.</p>
+<p>Root Me? It’s like a virtual playground for hackers, where you solve hacking puzzles to become cooler. I got <strong>1000+</strong> points there and counting!</p>
+<p><strong>Root Me Profile:</strong> <a href="https://www.root-me.org/mo7wf" target="_blank">root-me.org/mo7wf</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/m-mirkan" target="_blank">github.com/Mo7wf</a></p>
+</section>
+<section id="tools">
+<h2>Tools of the Trade (AKA My Toybox)</h2>
+<div class="category-list">
+<h3>Reverse Engineering &amp; Debugging</h3>
+<ul>
+<li>Ghidra</li>
+<li>dnSpy</li>
+<li>APKTool</li>
+<li>GDRE</li>
+<li>GodotDec</li>
+<li>GDB</li>
+<li>JADX</li>
+<li>Gdsdecomp</li>
+<li>uncompyle6</li>
+<li>decompyle3</li>
+</ul>
+<h3>Web &amp; Network Tools</h3>
+<ul>
+<li>Burp Suite</li>
+<li>Wireshark</li>
+</ul>
+<h3>Programming Languages</h3>
+<ul>
+<li>Python (my Swiss army knife)</li>
+<li>C (for pain and suffering)</li>
+<li>Java</li>
+<li>React</li>
+</ul>
+</div>
+</section>
+<section id="challenges">
+<h2>Main Challenges</h2>
+<h3>Root Me Challenges</h3><div class="challenge-box">
+  <h4>ELF x86 - ExploitMe</h4>
+  <p>Exploité une faille de type buffer overflow pour détourner un pointeur de fonction et exécuter du code caché.</p>
+</div>
+<div class="challenge-box"><h4>PE DotNet - Basic Anti-Debug</h4><p>Used dnSpy to decompile and reverse the flag function.</p></div><div class="challenge-box"><h4>WASM - Introduction</h4><p>Converted index.wasm using wasm2wat, reversed the flag logic, and found the flag.</p></div><div class="challenge-box"><h4>ELF x86 - CrackPass</h4><p>Bypassed ptrace anti-debug and accessed register containing the flag using GDB.</p></div><div class="challenge-box"><h4>Godot Bytecode</h4><p>Used GodotDec and Gdsdecomp to extract and read Godot script code.</p></div><div class="challenge-box"><h4>ELF x64 - Golang Basique</h4><p>Found the flag by analyzing XOR logic in the comparison function using GDB.</p></div>
+
+
+
+</section>
+<footer>
+<p>Made with love, a terminal, and some sleepless nights.</p>
+</footer>
+</body>
+</html>
