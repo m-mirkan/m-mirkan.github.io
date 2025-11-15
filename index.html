@@ -105,11 +105,7 @@
 <section id="challenges">
 <h2>Some Challenges</h2>
 <h3>Root Me Challenges</h3>    
-    <div class="challenge-box">
-  <h4>Web - Client : XSS - Stored 1</h4>
-  <p>Injected a script into a vulnerable field to steal the admin cookie via Webhook.site. Result: admin cookie obtained.</p>
-</div>
-
+ 
 <div class="challenge-box">
   <h4>ELF x86 - ExploitMe</h4>
   <p>Exploited a buffer overflow vulnerability to hijack a function pointer and execute hidden code.</p>
@@ -138,6 +134,14 @@
 <div class="challenge-box">
   <h4>ELF x64 - Golang Basic</h4>
   <p>Found the flag by analyzing XOR logic in the comparison function using GDB.</p>
+</div>
+<div class="challenge-box">
+  <h4>Forensic-Docker layers</h4>
+  <p>We used the command "container-diff " with the option "history" to see what we applied earlier to the container image , we found that the flag was encrypted using the command "openssl" and a password in the pass file , so now we need to do the reverse , we try to get the two files "flag" and "pass" and use the command "openssl " again to decrypt the flag using the same pass since it's aes-256 a symetric algorithm </p>
+</div>
+   <div class="challenge-box">
+  <h4>Web - Client : XSS - Stored 1</h4>
+  <p>Injected a script into a vulnerable field to steal the admin cookie via Webhook.site. Result: admin cookie obtained.</p>
 </div>
 
 
