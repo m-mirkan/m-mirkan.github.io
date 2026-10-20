@@ -55,6 +55,34 @@
       color: #888;
       font-size: 0.9em;
     }
+
+    /* ---- CV download button ---- */
+    .cv-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      font-size: 0.85em;
+      color: #00ffae;
+      background: rgba(0, 255, 174, 0.05);
+      border: 1px solid #00ffae;
+      border-radius: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .cv-btn:hover {
+      background: #00ffae;
+      color: #0a0f0d;
+      text-decoration: none;
+    }
+    .cv-btn svg {
+      width: 15px;
+      height: 15px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
   </style>
 </head>
 <body>
@@ -72,6 +100,15 @@
 <p><strong>Root Me Profile:</strong> <a href="https://www.root-me.org/mo7wf" target="_blank">root-me.org/mo7wf</a></p>
 
     <p><strong>HackTheBox Profile:</strong> <a href="https://app.hackthebox.com/profile/2482662" target="_blank">Htb/mo7wf</a></p>
+
+    <p><a class="cv-btn" href="assets/Mohamed_Cherfa_CV.pdf" download="Mohamed_Cherfa_CV.pdf" title="Download my CV">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 3v12"/>
+        <path d="M7 11l5 5 5-5"/>
+        <path d="M4 20h16"/>
+      </svg>
+      CV
+    </a></p>
 
 
 </section>
